@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algoritmos Matemáticos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Algoritmos Matemáticos</h1>
+  <div id="collatz">
+    <h2>Conjetura de Collatz</h2>
+    <label for="collatzNumber">Ingrese un número:</label>
+    <input type="number" id="collatzNumber">
+    <button onclick="Collatz()">Calcular</button>
+    <p id="collatzResult"></p>
+  </div>
+  <div id="kaprekar">
+    <h2>Constante de Kaprekar</h2>
+    <label for="kaprekarNumber">Ingrese un número de 4 dígitos:</label>
+    <input type="number" id="kaprekarNumber" step="1" min="1000" max="9999">
+    <button onclick="Kaprekar()">Calcular</button>
+    <p id="kaprekarResult"></p>
+  </div>
+  <div id="egyptianMultiplication">
+    <h2>Multiplicación Egipcia</h2>
+    <label for="multiplicando">Ingrese el multiplicando:</label>
+    <input type="number" id="multiplicando">
+    <label for="multiplicador">Ingrese el multiplicador:</label>
+    <input type="number" id="multiplicador">
+    <button onclick="MultiEgipcia()">Calcular</button>
+    <p id="egyptianMultiplicationResult"></p>
+  </div>
+  <div id="russianMultiplication">
+    <h2>Multiplicación Rusa</h2>
+    <label for="russianMultiplicando">Ingrese el multiplicando:</label>
+    <input type="number" id="russianMultiplicando">
+    <label for="russianMultiplicador">Ingrese el multiplicador:</label>
+    <input type="number" id="russianMultiplicador">
+    <button onclick="MultiRusa()">Calcular</button>
+    <p id="russianMultiplicationResult"></p>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
